@@ -91,7 +91,7 @@ button:hover {
 
 
 .list {
-  background-image: url(img/background.jpg);
+  background-image: url(/src/assets/img/background.jpg);
   background-repeat: repeat-y;
   background-size: 155%;
   /* background-attachment: local; */
