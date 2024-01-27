@@ -14,11 +14,12 @@ body {
   font-size: 1rem;
   font-family: 'Comfortaa', sans-serif;
   color: #283618;
-  background-image: url('/img/background.jpg'); /* Ganti '/path/to/your/image.jpg' dengan jalur gambar Anda */
-  background-size: cover; /* Mengatur gambar latar belakang untuk menutupi seluruh area body */
-  background-repeat: no-repeat; /* Menghindari pengulangan gambar */
-  background-position: center; /* Mengatur posisi gambar di tengah */
+  background-image: url('/img/pattern2.jpg');
+  background-size: cover; /* Gambar akan menutupi seluruh area body */
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 
 .app {
@@ -32,14 +33,14 @@ body {
 h1 {
   font-family: 'Borel';
   text-align: center;
-  background-color: #1A374D;
-  color: white;
+  background-color: #ffefbb;
+  color: #b96f3b;
   font-size: 6rem;
   padding: 4rem 0 1rem;
 }
 
 .add-form {
-  background-color: #406882;
+  background-color: #fe7427;
   padding: 2.8rem 0;
   display: flex;
   flex-direction: column;
@@ -90,7 +91,7 @@ button:hover {
 
 
 .list {
-  background-image: url(img/paper.jpg);
+  background-image: url(img/background.jpg);
   background-repeat: repeat-y;
   background-size: 155%;
   /* background-attachment: local; */
@@ -114,7 +115,7 @@ button:hover {
 }
 
 .list li {
-  color: #283618;
+  color: #B80000;
   font-size: 4rem;
   font-weight: bold;
   display: flex;
@@ -144,7 +145,7 @@ button:hover {
 }
 
 .actions {
-  background-color: #406882;
+  background-color: #fe7427;
   width: 100%;
   padding: 2rem 0;
   text-align: center;
@@ -158,11 +159,11 @@ button:hover {
 }
 
 .stats {
-  background-color: #1A374D;
-  color: white;
+  background-color: #ffefbb;
+  color: #b96f3b;
   text-align: center;
   padding: 3.2rem 0;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
